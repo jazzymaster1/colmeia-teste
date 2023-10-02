@@ -16,7 +16,7 @@ Uso uma funcao void palindromo pra operacao, que por meio de um while junto a um
 Utilizo o algoritmo bubble sorte para organizar os numeros do array, apesar de nao ser um algoritmo muito eficiente, motivo seu O"2, ele faz seu papel pra listas pequenas. quantia armazena a quantidade de elementos que sera organizada. for() para coletar do usuario os numeros a serem aplicados no algoritmo, e finalmente, aplico por meio de dois for() consecutivos, o sistema ubble, que compara dois elementos adjacentes e altera sua ordem com ajuda do var para manter a posicao.
 
 # 5 - Média aritmética.
-
+Funcao para determinar a media aritmetica de tamanho determinado pelo usuario, a partir de um for() para captar os numeros utilizando um array, e um for para somar todos os numeros do array, depois com         r=r/quantos; eu calculo a media e imprimo a mesma logo abaixo.
 
 
 ![Sem título](https://github.com/jazzymaster1/colmeia-teste/assets/141975423/27712e12-118f-4f64-9813-d945a78ddd05)
