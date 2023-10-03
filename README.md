@@ -1,5 +1,5 @@
 ## Desafios e fontes.
-Minha principal fonte quando tenho alguma dúvida de C, é chegar o manual de referencia pra C GNU, que nunca falha em sua robustez. Fora este, quando algum erro insiste em ficar fora da minha linha de visão, sempre haverá alguém que encontrou o mesmo problema em algum post do reddit, algum pedido de ajuda no stackoverflow, ou até mesmo algum post nas profundezas de alguma "communiite" dedicada a programação no incrível Lemmy.
+Minha principal fonte quando tenho alguma dúvida de C, é checar o manual de referencia pra C GNU, que nunca falha em sua robustez. Fora este, quando algum erro insiste em ficar fora da minha linha de visão, sempre haverá alguém que encontrou o mesmo problema em algum post do reddit, algum pedido de ajuda no stackoverflow, ou até mesmo algum post nas profundezas de alguma "communiite" dedicada a programação no incrível Lemmy.
 
 # 1 - Soma de Números Pare
 Declaro as variáveis N, i, e soma; O algoritmo utiliza um loop a partir de 2, que repete enqunato N for maior ou igual ao i, que parte de 2 em 2, em cada repetição acrescentando i. No código, utilizei o regex \033[H\033[J, que serve para limpar a tela do terminal.
