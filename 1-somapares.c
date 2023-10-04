@@ -1,9 +1,11 @@
 #include <stdio.h> //biblioteca para input e output padrão em C.
 
 int N, i, soma; //declaração das variáveis N, i, e da soma.
+// N   =>  até onde o usuário deseja somar
+// i   =>  variavel i, ou variavel temporária
+// soma  => soma final, resultado que será apresentado no printf
 
-
-int main(){
+int main(){ // função principal
         printf("\033[H\033[J");
         printf("+-----------------------------------------+\n");
         printf("|Até onde desejas somar os números pares: |\n");
