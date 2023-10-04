@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
-void limpatela(){           // função para limpar a tela :), dessa vez em
-    printf("\033[H\033[J"); // qualquer dispositivo, apenas para demonstrar 
+void limpatela(){           // função para limpar a tela :)
+    printf("\033[H\033[J"); 
 } 
 
-void palindromo(char palavra[]){ //função palíndromo ;).
+void palindromo(char palavra[]){ //função principal para detectar palíndromo ;).
 
-        int esquerda = 0;
-        int direita = strlen(palavra) - 2;
-        while(direita>esquerda){
+        int esquerda = 0; // posição da letra na esquerda
+        int direita = strlen(palavra) - 2; // posição da letra na direita, removendo \0
+        while(direita>esquerda){ // while if para checar se alguma letra [esquerda->  <-direita] é diferente
+                                 // enquanto suas posições são espelhadas
         if(palavra[esquerda++]!=palavra[direita--]){
                 printf("+--------------------+\n");
                 printf("|NÃO é um palíndromo |\n");
