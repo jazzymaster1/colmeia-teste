@@ -6,7 +6,10 @@ printf("\e[1;1H\e[2J");}
 
 int main(){
 	limpatela();
-	int quantia, qnt, bolha, var;
+	int quantia, qnt, bolha, var; // quantia é quantos numeros tera a lista
+																																// qnt é uma variavel temporaria pra processar for
+																																// bolha é a variavel da operacao sorting
+																																// var é a variavel que guarda o valor
 	int arr[1000000];
 
 	printf("+-----------------------------------+\n");
