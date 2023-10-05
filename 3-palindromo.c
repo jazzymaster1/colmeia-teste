@@ -54,7 +54,7 @@ int main(){ //função operacional
         printf("\nTestar novamente: ( S ) ( N ): ");
         z = getchar(); // input do S ou N
         getchar();
-        }while( z == 'S' || z == 's' ); 
+        }while( z == 'S' || z == 's' ); // do while para repetir caso o usuario digite S
 
 return 0;
 
